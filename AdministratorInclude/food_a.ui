@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Food_a</class>
+ <widget class="QWidget" name="Food_a">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/file/images/back8.jpeg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton_category">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;background:transparent;</string>
+      </property>
+      <property name="text">
+       <string>新增分类</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_food">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;background:transparent;</string>
+      </property>
+      <property name="text">
+       <string>新增菜品</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_food">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>711</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;background:transparent;</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>150</width>
+     <height>100</height>
+    </size>
+   </property>
+   <column>
+    <property name="text">
+     <string>图片</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>菜名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>分类</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>特价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>特价折扣</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>编辑</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QListWidget" name="listWidget_category">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>131</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

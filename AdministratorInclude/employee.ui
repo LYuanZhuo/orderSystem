@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Employee</class>
+ <widget class="QWidget" name="Employee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/file/images/back8.jpeg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>841</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget_waiter">
+      <column>
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>账号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>编辑</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget_kitchen">
+      <column>
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>账号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>编辑</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>487</x>
+     <y>0</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton_waiter">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;background:transparent;</string>
+      </property>
+      <property name="text">
+       <string>新增服务员</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_kitchen">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;background:transparent;</string>
+      </property>
+      <property name="text">
+       <string>新增厨房</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

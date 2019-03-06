@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Table_a</class>
+ <widget class="QWidget" name="Table_a">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/file/images/back8.jpeg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>0</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>增加台桌</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>841</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>桌号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>大小</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>描述</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>编辑</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

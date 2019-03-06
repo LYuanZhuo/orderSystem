@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/file">
+        <file>images/back1.jpg</file>
+        <file>images/back2.jpeg</file>
+        <file>images/back3.jpeg</file>
+        <file>images/back4.jpg</file>
+        <file>images/back5.jpg</file>
+        <file>images/back6.jpg</file>
+        <file>images/button.png</file>
+        <file>images/button1.png</file>
+        <file>images/food.jpg</file>
+        <file>images/b0.jpg</file>
+        <file>images/b1.jpg</file>
+        <file>images/back.jpg</file>
+        <file>images/back7.jpg</file>
+        <file>images/back9.jpg</file>
+        <file>images/back10.jpg</file>
+        <file>images/back11.jpg</file>
+        <file>images/back8.jpeg</file>
+        <file>images/back12.jpg</file>
+        <file>images/waiting.gif</file>
+        <file>images/waiting3.gif</file>
+    </qresource>
+</RCC>
